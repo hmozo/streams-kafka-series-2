@@ -1,0 +1,7 @@
+spring:
+  kafka:
+    streams:
+      application-id-config: "streams-starter-app"
+      bootstraps-servers-config: "localhost:9092"
+    consumer:
+      auto-offset-reset-config: "earliest"
